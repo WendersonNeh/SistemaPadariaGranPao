@@ -1,0 +1,26 @@
+Produto
+
+categoria 
+marca 
+fornecedor 
+estoque Ex entre 20 a 200
+venda Ex 100 a 200
+status 
+
+Fornecedor 
+
+data cadastro 
+cidade
+estado
+status 
+
+Categoria 
+
+status 
+data cadastro
+
+Marca 
+
+data cadastro
+status 
+

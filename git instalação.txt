@@ -1,0 +1,80 @@
+Portifolio
+
+Crear conta no github 
+https://github.com/WendersonNeh/vapor/blob/main/README.md
+
+
+baixar o git
+
+https://git-scm.com/download/win
+
+conectar o hub com scm 
+
+git config --user.name "name"   assinaturadigital como vai aparecer quem alterou
+
+
+git config --user.email "email"
+
+git clone https"caminho no hit hub"
+
+$ git clone https://github.com/WendersonNeh/vapor.git
+
+git add . 
+
+O comando git add adiciona uma alteração no diretório de trabalho à área de preparação . Ele informa ao Git que você deseja incluir atualizações em um arquivo específico no próximo commit. No entanto, git add não afeta realmente o repositório de maneira significativa - as alterações não são realmente registradas até que você execute git commit .
+
+
+git log
+
+git status
+
+$ git commit -m "CREATED @ carregando arquivos iniciais"
+
+git push
+
+coloque o vapor 
+
+git add .
+
+$ git commit -m "CREATED @ SQL file "
+
+git push
+
+git status
+
+git fetch --all
+
+git status
+
+git pull
+
+
+
+puxar att do git 
+
+git fetch 
+
+git pull
+
+
+
+extenção
+git lens
+
+
+site para estudos 
+
+https://playcode.io/javascript
+
+javascript
+
+
+sudo nano ~/.ssh/config
+
+E acrescentei o seguinte
+
+Host github.com
+ Hostname ssh.github.com
+ Port 443
+Em seguida, execute o comando ssh -T git@github.compara confirmar se o problema foi corrigido.
+
