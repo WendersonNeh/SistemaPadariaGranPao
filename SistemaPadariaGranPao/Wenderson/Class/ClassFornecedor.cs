@@ -201,18 +201,9 @@ namespace SistemaPadariaGranPao
 
         //OPÇÕES DO RELATÓRIO: ANIVERSARIANTES POR DIA E MÊS, ANIVERSARIANTES POR MÊS, ANIVERSARIANTES POR IDADE, CIDADE, DATA DE ADMISSÃO, SEXO E STATUS*/
         /*CAMPOS EXIBIDOS NO RELATÓRIO: NOME, CPF, NASCIMENTO, CIDADE, ADMISSÃO, SETOR E CARGO*/
-
-
-        //public DataTable RelFuncionarioDataAdmissao(DateTime datai, DateTime dataf)
-        //{
-        //    string query = "SELECT funcionario.nome, funcionario.cpf, funcionario.data_nascimento, funcionario.cidade, funcionario.data_cadastro, setor.nome 'codigo_setor', cargo.nome 'codigo_cargo' FROM funcionario JOIN setor ON setor.codigo_setor = funcionario.codigo_setor JOIN cargo ON cargo.codigo_cargo = funcionario.codigo_cargo WHERE CAST(funcionario.data_cadastro as date) BETWEEN '" + datai.ToString("yyyy-MM-dd") + "' AND '" + dataf.ToString("yyyy-MM-dd") + "' AND funcionario.status = 1 ORDER BY funcionario.nome";
-
-        //    classConexao cConexao = new classConexao();
-        //    return cConexao.RetornaDataTable(query);
-
-        //}
-
-        public DataTable RelFuncionarioDataAdmissaoteste(DateTime datai, DateTime dataf)
+  
+        //relatorios entre datas
+        public DataTable RelFornecedorData(DateTime datai, DateTime dataf)
         {
             string query = "SELECT id_fornecedor,razao_social,nome_fantasia,email,telefone_principal,telefone_recado,cep,endereco,numero,cidade,cnpj,estado,status,data_cadastro,observacao FROM fornecedor WHERE data_cadastro BETWEEN '" + datai.ToString("yyyy-MM-dd") + "' AND '" + dataf.ToString("yyyy-MM-dd") + "' and status = 1 ORDER by data_cadastro";
 
@@ -220,6 +211,42 @@ namespace SistemaPadariaGranPao
             return cConexao.RetornaDataTable(query);
 
         }
+
+        //Cidade 
+        public DataTable RelFornecedorCidade(string cidade,int status)
+        {
+            string query = "SELECT id_fornecedor,razao_social,nome_fantasia,email,telefone_principal,telefone_recado,cep,endereco,numero,cidade,cnpj,estado,status,data_cadastro,observacao FROM fornecedor WHERE cidade = '" + cidade + "' and status = " + status + " ORDER by razao_social";
+
+            ClassConexao cConexao = new ClassConexao();
+            return cConexao.RetornaDataTable(query);
+
+        }
+
+        //Estado
+        public DataTable RelFornecedorEstado(string estado, int status)
+        {
+            string query = "SELECT id_fornecedor,razao_social,nome_fantasia,email,telefone_principal,telefone_recado,cep,endereco,numero,cidade,cnpj,estado,status,data_cadastro,observacao FROM fornecedor WHERE estado = '" + estado + "' and status = " + status + " ORDER by razao_social";
+
+            ClassConexao cConexao = new ClassConexao();
+            return cConexao.RetornaDataTable(query);
+
+        }
+
+        //status
+
+        public DataTable RelFornecedorStatus(int status)
+        {
+            string query = "SELECT id_fornecedor,razao_social,nome_fantasia,email,telefone_principal,telefone_recado,cep,endereco,numero,cidade,cnpj,estado,status,data_cadastro,observacao FROM fornecedor WHERE status = " + status + " ORDER by razao_social";
+
+            ClassConexao cConexao = new ClassConexao();
+            return cConexao.RetornaDataTable(query);
+
+        }
+
+
+
+
+
 
 
 
