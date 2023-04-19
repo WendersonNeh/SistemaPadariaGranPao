@@ -9,10 +9,10 @@ status
 
 Fornecedor 
 
-data cadastro 
-cidade
-estado
-status 
+data cadastro ok
+cidade  ok
+estado ok
+status ok
 
 Categoria 
 

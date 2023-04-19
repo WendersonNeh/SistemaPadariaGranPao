@@ -556,3 +556,5 @@ C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\bin\
 C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\obj\Debug\SistemaPadariaGranPao.formRelFuncionario.resources
+C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\obj\Debug\RdlCompile.cache
+C:\Users\wenderson\source\repos\SistemaPadariaGranPao\SistemaPadariaGranPao\obj\Debug\RdlCompile.compiled
