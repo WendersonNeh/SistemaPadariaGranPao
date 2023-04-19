@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formRelFuncionario));
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.ClassFornecedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pnTituloFuncionario = new System.Windows.Forms.Panel();
             this.lbTitulo = new System.Windows.Forms.Label();
             this.gbCargo = new System.Windows.Forms.GroupBox();
@@ -65,7 +66,7 @@
             this.rbInativo = new System.Windows.Forms.RadioButton();
             this.rbAtivo = new System.Windows.Forms.RadioButton();
             this.rptvFornecedor = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.ClassFornecedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.ClassFornecedorBindingSource)).BeginInit();
             this.pnTituloFuncionario.SuspendLayout();
             this.gbCargo.SuspendLayout();
             this.gbSetor.SuspendLayout();
@@ -75,8 +76,11 @@
             this.gbAniversariantes.SuspendLayout();
             this.gbIdade.SuspendLayout();
             this.gbStatus.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ClassFornecedorBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // ClassFornecedorBindingSource
+            // 
+            this.ClassFornecedorBindingSource.DataSource = typeof(SistemaPadariaGranPao.ClassFornecedor);
             // 
             // pnTituloFuncionario
             // 
@@ -449,15 +453,11 @@
             reportDataSource1.Value = this.ClassFornecedorBindingSource;
             this.rptvFornecedor.LocalReport.DataSources.Add(reportDataSource1);
             this.rptvFornecedor.LocalReport.ReportEmbeddedResource = "SistemaPadariaGranPao.RepFornecedor.rdlc";
-            this.rptvFornecedor.Location = new System.Drawing.Point(51, 323);
+            this.rptvFornecedor.Location = new System.Drawing.Point(131, 344);
             this.rptvFornecedor.Name = "rptvFornecedor";
             this.rptvFornecedor.ServerReport.BearerToken = null;
             this.rptvFornecedor.Size = new System.Drawing.Size(560, 195);
             this.rptvFornecedor.TabIndex = 108;
-            // 
-            // ClassFornecedorBindingSource
-            // 
-            this.ClassFornecedorBindingSource.DataSource = typeof(SistemaPadariaGranPao.ClassFornecedor);
             // 
             // formRelFuncionario
             // 
@@ -485,6 +485,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmRelFuncionario";
             this.Load += new System.EventHandler(this.formRelFuncionario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.ClassFornecedorBindingSource)).EndInit();
             this.pnTituloFuncionario.ResumeLayout(false);
             this.pnTituloFuncionario.PerformLayout();
             this.gbCargo.ResumeLayout(false);
@@ -500,7 +501,6 @@
             this.gbIdade.PerformLayout();
             this.gbStatus.ResumeLayout(false);
             this.gbStatus.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ClassFornecedorBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
