@@ -251,7 +251,7 @@
     <EmbeddedResource Include="Wenderson\Forms\FormProduto.resx">
       <DependentUpon>FormProduto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Wenderson\Relatorios\RptFuncionario.rdlc" />
+    <EmbeddedResource Include="Wenderson\Forms\RptFuncionario.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\ClassFornecedor.datasource" />
     <None Include="Properties\Settings.settings">
@@ -267,7 +267,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Wenderson\Relatorios\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
