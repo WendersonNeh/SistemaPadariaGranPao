@@ -65,6 +65,65 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bruno\Cargo\ClassCargo.cs" />
+    <Compile Include="Bruno\Cargo\FormCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Cargo\FormCargo.Designer.cs">
+      <DependentUpon>FormCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Cliente\ClassCliente.cs" />
+    <Compile Include="Bruno\Cliente\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Cliente\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Cliente\FormConCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Cliente\FormConCliente.Designer.cs">
+      <DependentUpon>FormConCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Cliente\formRelCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Cliente\formRelCliente.Designer.cs">
+      <DependentUpon>formRelCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Departamento\ClassDepartamento.cs" />
+    <Compile Include="Bruno\Departamento\FormDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Departamento\FormDepartamento.Designer.cs">
+      <DependentUpon>FormDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\ClassFuncionario.cs" />
+    <Compile Include="Bruno\Funcionario\FormConFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\FormConFuncionario.Designer.cs">
+      <DependentUpon>FormConFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\FormFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\FormFuncionario.Designer.cs">
+      <DependentUpon>FormFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\formRelFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Funcionario\formRelFuncionario.Designer.cs">
+      <DependentUpon>formRelFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bruno\Login\ClassLogin.cs" />
+    <Compile Include="Bruno\Login\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bruno\Login\FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="Wenderson\Consulta\FormConMarcaCategoria.cs">
       <SubType>Form</SubType>
@@ -112,42 +171,12 @@
     <Compile Include="Wenderson\Forms\FormCategoria.Designer.cs">
       <DependentUpon>FormCategoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Bruno\FormFuncionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bruno\FormFuncionario.Designer.cs">
-      <DependentUpon>FormFuncionario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bruno\FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bruno\FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="ClassConexao.cs" />
-    <Compile Include="Bruno\FormCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bruno\FormCliente.Designer.cs">
-      <DependentUpon>FormCliente.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bruno\FormDepartamento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bruno\FormDepartamento.Designer.cs">
-      <DependentUpon>FormDepartamento.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Bruno\FormSetor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Bruno\FormSetor.Designer.cs">
-      <DependentUpon>FormSetor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -157,6 +186,34 @@
     <Compile Include="FormRellFornecedor.Designer.cs">
       <DependentUpon>FormRellFornecedor.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bruno\Cargo\FormCargo.resx">
+      <DependentUpon>FormCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Cliente\FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Cliente\FormConCliente.resx">
+      <DependentUpon>FormConCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Cliente\formRelCliente.resx">
+      <DependentUpon>formRelCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Departamento\FormDepartamento.resx">
+      <DependentUpon>FormDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Funcionario\FormConFuncionario.resx">
+      <DependentUpon>FormConFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Funcionario\FormFuncionario.resx">
+      <DependentUpon>FormFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Funcionario\formRelFuncionario.resx">
+      <DependentUpon>formRelFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bruno\Funcionario\RptFuncionario.rdlc" />
+    <EmbeddedResource Include="Bruno\Login\FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRellFornecedor.resx">
       <DependentUpon>FormRellFornecedor.cs</DependentUpon>
     </EmbeddedResource>
