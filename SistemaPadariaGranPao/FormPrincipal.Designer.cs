@@ -55,6 +55,7 @@ namespace SistemaPadariaGranPao
             this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -159,7 +160,8 @@ namespace SistemaPadariaGranPao
             this.testeToolStripMenuItem,
             this.wendersonTesteToolStripMenuItem,
             this.brunoTesteToolStripMenuItem,
-            this.twste13193012ToolStripMenuItem});
+            this.twste13193012ToolStripMenuItem,
+            this.toolStripMenuItem2});
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
@@ -249,6 +251,12 @@ namespace SistemaPadariaGranPao
             this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.twste13193012ToolStripMenuItem.Text = "twste13193012";
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "1231231";
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,6 +305,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem teste3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teste5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem twste13193012ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
     }
 }
 
