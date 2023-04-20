@@ -37,6 +37,8 @@ namespace SistemaPadariaGranPao
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,18 +47,17 @@ namespace SistemaPadariaGranPao
             this.fornecedorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wendersonTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.brunoTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.a31313ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusData = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.HoraSistema = new System.Windows.Forms.Timer(this.components);
-            this.brunoTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.a31313ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -123,12 +124,25 @@ namespace SistemaPadariaGranPao
             this.vendasToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.vendasToolStripMenuItem.Text = "Vendas";
             // 
+            // teste3ToolStripMenuItem
+            // 
+            this.teste3ToolStripMenuItem.Name = "teste3ToolStripMenuItem";
+            this.teste3ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.teste3ToolStripMenuItem.Text = "teste3";
+            // 
+            // teste5ToolStripMenuItem
+            // 
+            this.teste5ToolStripMenuItem.Name = "teste5ToolStripMenuItem";
+            this.teste5ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
+            this.teste5ToolStripMenuItem.Text = "teste5";
+            // 
             // consultasToolStripMenuItem
             // 
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fornecedorToolStripMenuItem1,
             this.produtoToolStripMenuItem1,
-            this.simplesToolStripMenuItem});
+            this.simplesToolStripMenuItem,
+            this.toolStripMenuItem3});
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.consultasToolStripMenuItem.Text = "Consultas";
@@ -136,21 +150,21 @@ namespace SistemaPadariaGranPao
             // fornecedorToolStripMenuItem1
             // 
             this.fornecedorToolStripMenuItem1.Name = "fornecedorToolStripMenuItem1";
-            this.fornecedorToolStripMenuItem1.Size = new System.Drawing.Size(163, 22);
+            this.fornecedorToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.fornecedorToolStripMenuItem1.Text = "Fornecedor";
             this.fornecedorToolStripMenuItem1.Click += new System.EventHandler(this.fornecedorToolStripMenuItem1_Click);
             // 
             // produtoToolStripMenuItem1
             // 
             this.produtoToolStripMenuItem1.Name = "produtoToolStripMenuItem1";
-            this.produtoToolStripMenuItem1.Size = new System.Drawing.Size(163, 22);
+            this.produtoToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.produtoToolStripMenuItem1.Text = "Produto";
             this.produtoToolStripMenuItem1.Click += new System.EventHandler(this.produtoToolStripMenuItem1_Click);
             // 
             // simplesToolStripMenuItem
             // 
             this.simplesToolStripMenuItem.Name = "simplesToolStripMenuItem";
-            this.simplesToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.simplesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.simplesToolStripMenuItem.Text = "Marca/Categoria";
             this.simplesToolStripMenuItem.Click += new System.EventHandler(this.simplesToolStripMenuItem_Click);
             // 
@@ -186,6 +200,30 @@ namespace SistemaPadariaGranPao
             this.wendersonTesteToolStripMenuItem.Name = "wendersonTesteToolStripMenuItem";
             this.wendersonTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.wendersonTesteToolStripMenuItem.Text = "wenderson teste";
+            // 
+            // brunoTesteToolStripMenuItem
+            // 
+            this.brunoTesteToolStripMenuItem.Name = "brunoTesteToolStripMenuItem";
+            this.brunoTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.brunoTesteToolStripMenuItem.Text = "bruno teste";
+            // 
+            // twste13193012ToolStripMenuItem
+            // 
+            this.twste13193012ToolStripMenuItem.Name = "twste13193012ToolStripMenuItem";
+            this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twste13193012ToolStripMenuItem.Text = "twste13193012";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "1231231";
+            // 
+            // a31313ToolStripMenuItem
+            // 
+            this.a31313ToolStripMenuItem.Name = "a31313ToolStripMenuItem";
+            this.a31313ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.a31313ToolStripMenuItem.Text = "a31313";
             // 
             // sairToolStripMenuItem
             // 
@@ -229,41 +267,11 @@ namespace SistemaPadariaGranPao
             this.HoraSistema.Enabled = true;
             this.HoraSistema.Tick += new System.EventHandler(this.HoraSistema_Tick);
             // 
-            // brunoTesteToolStripMenuItem
+            // toolStripMenuItem3
             // 
-            this.brunoTesteToolStripMenuItem.Name = "brunoTesteToolStripMenuItem";
-            this.brunoTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.brunoTesteToolStripMenuItem.Text = "bruno teste";
-            // 
-            // teste3ToolStripMenuItem
-            // 
-            this.teste3ToolStripMenuItem.Name = "teste3ToolStripMenuItem";
-            this.teste3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.teste3ToolStripMenuItem.Text = "teste3";
-            // 
-            // teste5ToolStripMenuItem
-            // 
-            this.teste5ToolStripMenuItem.Name = "teste5ToolStripMenuItem";
-            this.teste5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.teste5ToolStripMenuItem.Text = "teste5";
-            // 
-            // twste13193012ToolStripMenuItem
-            // 
-            this.twste13193012ToolStripMenuItem.Name = "twste13193012ToolStripMenuItem";
-            this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.twste13193012ToolStripMenuItem.Text = "twste13193012";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "1231231";
-            // 
-            // a31313ToolStripMenuItem
-            // 
-            this.a31313ToolStripMenuItem.Name = "a31313ToolStripMenuItem";
-            this.a31313ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.a31313ToolStripMenuItem.Text = "a31313";
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Text = "123141";
             // 
             // FormPrincipal
             // 
@@ -315,6 +323,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem twste13193012ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem a31313ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
     }
 }
 
