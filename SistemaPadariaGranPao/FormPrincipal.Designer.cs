@@ -54,6 +54,7 @@ namespace SistemaPadariaGranPao
             this.brunoTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -157,7 +158,8 @@ namespace SistemaPadariaGranPao
             this.fornecedorToolStripMenuItem2,
             this.testeToolStripMenuItem,
             this.wendersonTesteToolStripMenuItem,
-            this.brunoTesteToolStripMenuItem});
+            this.brunoTesteToolStripMenuItem,
+            this.twste13193012ToolStripMenuItem});
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
@@ -241,6 +243,12 @@ namespace SistemaPadariaGranPao
             this.teste5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.teste5ToolStripMenuItem.Text = "teste5";
             // 
+            // twste13193012ToolStripMenuItem
+            // 
+            this.twste13193012ToolStripMenuItem.Name = "twste13193012ToolStripMenuItem";
+            this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twste13193012ToolStripMenuItem.Text = "twste13193012";
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -288,6 +296,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem brunoTesteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teste3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem teste5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem twste13193012ToolStripMenuItem;
     }
 }
 
