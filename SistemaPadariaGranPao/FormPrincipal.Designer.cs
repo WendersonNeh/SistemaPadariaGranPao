@@ -50,6 +50,7 @@ namespace SistemaPadariaGranPao
             this.StatusHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.HoraSistema = new System.Windows.Forms.Timer(this.components);
             this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wendersonTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -148,7 +149,8 @@ namespace SistemaPadariaGranPao
             // 
             this.relatoriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fornecedorToolStripMenuItem2,
-            this.testeToolStripMenuItem});
+            this.testeToolStripMenuItem,
+            this.wendersonTesteToolStripMenuItem});
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
@@ -208,6 +210,12 @@ namespace SistemaPadariaGranPao
             this.testeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.testeToolStripMenuItem.Text = "teste";
             // 
+            // wendersonTesteToolStripMenuItem
+            // 
+            this.wendersonTesteToolStripMenuItem.Name = "wendersonTesteToolStripMenuItem";
+            this.wendersonTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wendersonTesteToolStripMenuItem.Text = "wenderson teste";
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,6 +259,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem simplesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fornecedorToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem testeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wendersonTesteToolStripMenuItem;
     }
 }
 
