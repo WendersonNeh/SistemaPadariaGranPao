@@ -49,6 +49,7 @@ namespace SistemaPadariaGranPao
             this.StatusData = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.HoraSistema = new System.Windows.Forms.Timer(this.components);
+            this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -146,7 +147,8 @@ namespace SistemaPadariaGranPao
             // relatoriosToolStripMenuItem
             // 
             this.relatoriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fornecedorToolStripMenuItem2});
+            this.fornecedorToolStripMenuItem2,
+            this.testeToolStripMenuItem});
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
@@ -200,6 +202,12 @@ namespace SistemaPadariaGranPao
             this.HoraSistema.Enabled = true;
             this.HoraSistema.Tick += new System.EventHandler(this.HoraSistema_Tick);
             // 
+            // testeToolStripMenuItem
+            // 
+            this.testeToolStripMenuItem.Name = "testeToolStripMenuItem";
+            this.testeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.testeToolStripMenuItem.Text = "teste";
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +250,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem produtoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem simplesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fornecedorToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem testeToolStripMenuItem;
     }
 }
 
