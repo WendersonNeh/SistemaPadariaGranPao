@@ -37,8 +37,6 @@ namespace SistemaPadariaGranPao
             this.fornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,16 +45,18 @@ namespace SistemaPadariaGranPao
             this.fornecedorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.testeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wendersonTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.brunoTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusData = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusHora = new System.Windows.Forms.ToolStripStatusLabel();
             this.HoraSistema = new System.Windows.Forms.Timer(this.components);
-            this.fhkelnfklwefljToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.brunoTesteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teste3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teste5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.twste13193012ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.a31313ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -123,18 +123,6 @@ namespace SistemaPadariaGranPao
             this.vendasToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
             this.vendasToolStripMenuItem.Text = "Vendas";
             // 
-            // teste3ToolStripMenuItem
-            // 
-            this.teste3ToolStripMenuItem.Name = "teste3ToolStripMenuItem";
-            this.teste3ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.teste3ToolStripMenuItem.Text = "teste3";
-            // 
-            // teste5ToolStripMenuItem
-            // 
-            this.teste5ToolStripMenuItem.Name = "teste5ToolStripMenuItem";
-            this.teste5ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.teste5ToolStripMenuItem.Text = "teste5";
-            // 
             // consultasToolStripMenuItem
             // 
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -175,7 +163,7 @@ namespace SistemaPadariaGranPao
             this.brunoTesteToolStripMenuItem,
             this.twste13193012ToolStripMenuItem,
             this.toolStripMenuItem2,
-            this.fhkelnfklwefljToolStripMenuItem});
+            this.a31313ToolStripMenuItem});
             this.relatoriosToolStripMenuItem.Name = "relatoriosToolStripMenuItem";
             this.relatoriosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.relatoriosToolStripMenuItem.Text = "Relatorios";
@@ -198,24 +186,6 @@ namespace SistemaPadariaGranPao
             this.wendersonTesteToolStripMenuItem.Name = "wendersonTesteToolStripMenuItem";
             this.wendersonTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.wendersonTesteToolStripMenuItem.Text = "wenderson teste";
-            // 
-            // brunoTesteToolStripMenuItem
-            // 
-            this.brunoTesteToolStripMenuItem.Name = "brunoTesteToolStripMenuItem";
-            this.brunoTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.brunoTesteToolStripMenuItem.Text = "bruno teste";
-            // 
-            // twste13193012ToolStripMenuItem
-            // 
-            this.twste13193012ToolStripMenuItem.Name = "twste13193012ToolStripMenuItem";
-            this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.twste13193012ToolStripMenuItem.Text = "twste13193012";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "1231231";
             // 
             // sairToolStripMenuItem
             // 
@@ -259,11 +229,41 @@ namespace SistemaPadariaGranPao
             this.HoraSistema.Enabled = true;
             this.HoraSistema.Tick += new System.EventHandler(this.HoraSistema_Tick);
             // 
-            // fhkelnfklwefljToolStripMenuItem
+            // brunoTesteToolStripMenuItem
             // 
-            this.fhkelnfklwefljToolStripMenuItem.Name = "fhkelnfklwefljToolStripMenuItem";
-            this.fhkelnfklwefljToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fhkelnfklwefljToolStripMenuItem.Text = "fhkelnfklweflj";
+            this.brunoTesteToolStripMenuItem.Name = "brunoTesteToolStripMenuItem";
+            this.brunoTesteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.brunoTesteToolStripMenuItem.Text = "bruno teste";
+            // 
+            // teste3ToolStripMenuItem
+            // 
+            this.teste3ToolStripMenuItem.Name = "teste3ToolStripMenuItem";
+            this.teste3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.teste3ToolStripMenuItem.Text = "teste3";
+            // 
+            // teste5ToolStripMenuItem
+            // 
+            this.teste5ToolStripMenuItem.Name = "teste5ToolStripMenuItem";
+            this.teste5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.teste5ToolStripMenuItem.Text = "teste5";
+            // 
+            // twste13193012ToolStripMenuItem
+            // 
+            this.twste13193012ToolStripMenuItem.Name = "twste13193012ToolStripMenuItem";
+            this.twste13193012ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.twste13193012ToolStripMenuItem.Text = "twste13193012";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Text = "1231231";
+            // 
+            // a31313ToolStripMenuItem
+            // 
+            this.a31313ToolStripMenuItem.Name = "a31313ToolStripMenuItem";
+            this.a31313ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.a31313ToolStripMenuItem.Text = "a31313";
             // 
             // FormPrincipal
             // 
@@ -314,7 +314,7 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.ToolStripMenuItem teste5ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem twste13193012ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem fhkelnfklwefljToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem a31313ToolStripMenuItem;
     }
 }
 
