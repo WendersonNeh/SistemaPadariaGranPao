@@ -180,10 +180,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FormRellFornecedor.cs">
+    <Compile Include="Wenderson\Relatorios\FormRellFornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRellFornecedor.Designer.cs">
+    <Compile Include="Wenderson\Relatorios\FormRellFornecedor.Designer.cs">
       <DependentUpon>FormRellFornecedor.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Bruno\Cargo\FormCargo.resx">
@@ -214,7 +214,7 @@
     <EmbeddedResource Include="Bruno\Login\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRellFornecedor.resx">
+    <EmbeddedResource Include="Wenderson\Relatorios\FormRellFornecedor.resx">
       <DependentUpon>FormRellFornecedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RepFornecedor.rdlc" />
