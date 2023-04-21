@@ -54,6 +54,7 @@ namespace SistemaPadariaGranPao
             this.label10 = new System.Windows.Forms.Label();
             this.dgvFuncionario = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.pnTituloFuncionario.SuspendLayout();
             this.gbConsFuncionario.SuspendLayout();
             this.gbStatus.SuspendLayout();
@@ -87,6 +88,7 @@ namespace SistemaPadariaGranPao
             // 
             // gbConsFuncionario
             // 
+            this.gbConsFuncionario.Controls.Add(this.button2);
             this.gbConsFuncionario.Controls.Add(this.button1);
             this.gbConsFuncionario.Controls.Add(this.gbStatus);
             this.gbConsFuncionario.Controls.Add(this.gbOpcao);
@@ -353,6 +355,20 @@ namespace SistemaPadariaGranPao
             this.button1.Text = "Sair";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(401, 402);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(121, 50);
+            this.button2.TabIndex = 113;
+            this.button2.Text = "Sair";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // FormConFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -411,5 +427,6 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.RadioButton rbAtivo;
         public System.Windows.Forms.ComboBox tbEstadoFornecedor;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
