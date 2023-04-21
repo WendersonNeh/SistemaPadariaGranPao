@@ -53,6 +53,7 @@ namespace SistemaPadariaGranPao
             this.rbInicio = new System.Windows.Forms.RadioButton();
             this.label10 = new System.Windows.Forms.Label();
             this.dgvFuncionario = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.pnTituloFuncionario.SuspendLayout();
             this.gbConsFuncionario.SuspendLayout();
             this.gbStatus.SuspendLayout();
@@ -86,6 +87,7 @@ namespace SistemaPadariaGranPao
             // 
             // gbConsFuncionario
             // 
+            this.gbConsFuncionario.Controls.Add(this.button1);
             this.gbConsFuncionario.Controls.Add(this.gbStatus);
             this.gbConsFuncionario.Controls.Add(this.gbOpcao);
             this.gbConsFuncionario.Controls.Add(this.gbCPF);
@@ -337,6 +339,20 @@ namespace SistemaPadariaGranPao
             this.dgvFuncionario.TabIndex = 48;
             this.dgvFuncionario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvFuncionario_CellClick);
             // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(310, 280);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(121, 50);
+            this.button1.TabIndex = 112;
+            this.button1.Text = "Sair";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormConFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -394,5 +410,6 @@ namespace SistemaPadariaGranPao
         private System.Windows.Forms.RadioButton rbInativo;
         private System.Windows.Forms.RadioButton rbAtivo;
         public System.Windows.Forms.ComboBox tbEstadoFornecedor;
+        private System.Windows.Forms.Button button1;
     }
 }
